@@ -81,6 +81,7 @@
                         <viewLayoutGuide key="safeArea" id="G0D-Sh-7OU"/>
                     </view>
                     <connections>
+                        <outlet property="channelNameLbl" destination="Hbq-qm-Ix8" id="TOe-fO-oME"/>
                         <outlet property="menuBtn" destination="wfw-SJ-k56" id="iU2-O9-u5z"/>
                     </connections>
                 </viewController>
@@ -136,7 +137,7 @@
                                 <rect key="frame" x="0.0" y="125" width="375" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="uSP-rB-t1i" customClass="ChannelCell" customModule="smack_app" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="uSP-rB-t1i" customClass="ChannelCell" customModule="smack_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uSP-rB-t1i" id="HR2-yb-NFF">
