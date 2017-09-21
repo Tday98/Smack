@@ -1,3 +1,5 @@
-# smack-app2
+# Smack
 ## A Slack clone built in iOS.
-### Project made in class iOS 11 & Swift 4 From Beginner to Paid Professional. Devslopes.com
+#### APIs used were Alamofire, SwiftyJSON, and Socket-IO.
+#### Built following the layout given by Devslopes.
+##### Devslopes.com 
