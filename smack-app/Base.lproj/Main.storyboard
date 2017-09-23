@@ -98,42 +98,42 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="t9f-Vc-Gy7" customClass="CircleImage" customModule="smack_app" customModuleProvider="target">
-                                                    <rect key="frame" x="16" y="8" width="50" height="50"/>
+                                                    <rect key="frame" x="8" y="8" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="50" id="5sy-u2-qye"/>
-                                                        <constraint firstAttribute="height" constant="50" id="hgx-hi-ghI"/>
+                                                        <constraint firstAttribute="height" constant="50" id="Cpe-QS-bkl"/>
+                                                        <constraint firstAttribute="width" constant="50" id="ZW2-wf-tuS"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="TristanD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ex9-nZ-TUp">
-                                                    <rect key="frame" x="78" y="8" width="64" height="20"/>
+                                                    <rect key="frame" x="70" y="8" width="64" height="20"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJx-Ng-u2V">
-                                                    <rect key="frame" x="78" y="36" width="277" height="21"/>
+                                                    <rect key="frame" x="70" y="16" width="285" height="41"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:33 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUW-am-hBA">
-                                                    <rect key="frame" x="148" y="10" width="64.5" height="17.5"/>
+                                                    <rect key="frame" x="140" y="9.5" width="64.5" height="17.5"/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="gUW-am-hBA" firstAttribute="leading" secondItem="Ex9-nZ-TUp" secondAttribute="trailing" constant="6" id="7Wq-uA-VnL"/>
-                                                <constraint firstItem="WJx-Ng-u2V" firstAttribute="leading" secondItem="t9f-Vc-Gy7" secondAttribute="trailing" constant="12" id="C1m-1l-Yof"/>
-                                                <constraint firstItem="t9f-Vc-Gy7" firstAttribute="top" secondItem="BWW-1H-t04" secondAttribute="topMargin" id="Gy9-ZP-Qky"/>
-                                                <constraint firstItem="gUW-am-hBA" firstAttribute="centerY" secondItem="Ex9-nZ-TUp" secondAttribute="centerY" id="Hmj-DZ-a4p"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="WJx-Ng-u2V" secondAttribute="trailing" constant="12" id="MJa-2C-rSh"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="WJx-Ng-u2V" secondAttribute="bottom" constant="15" id="Okc-qC-hKR"/>
-                                                <constraint firstItem="t9f-Vc-Gy7" firstAttribute="leading" secondItem="BWW-1H-t04" secondAttribute="leadingMargin" constant="8" id="UkR-LZ-t2w"/>
-                                                <constraint firstItem="Ex9-nZ-TUp" firstAttribute="leading" secondItem="t9f-Vc-Gy7" secondAttribute="trailing" constant="12" id="dbb-Np-VKX"/>
-                                                <constraint firstItem="WJx-Ng-u2V" firstAttribute="top" secondItem="Ex9-nZ-TUp" secondAttribute="bottom" constant="8" id="mA2-HO-4q5"/>
-                                                <constraint firstItem="Ex9-nZ-TUp" firstAttribute="top" secondItem="t9f-Vc-Gy7" secondAttribute="top" id="yvN-iu-yOJ"/>
+                                                <constraint firstItem="WJx-Ng-u2V" firstAttribute="leading" secondItem="t9f-Vc-Gy7" secondAttribute="trailing" constant="12" id="2QD-Sg-mOL"/>
+                                                <constraint firstItem="Ex9-nZ-TUp" firstAttribute="top" secondItem="t9f-Vc-Gy7" secondAttribute="top" id="6j5-VP-cDE"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="WJx-Ng-u2V" secondAttribute="bottom" constant="15" id="DP7-xv-6i1"/>
+                                                <constraint firstItem="gUW-am-hBA" firstAttribute="leading" secondItem="Ex9-nZ-TUp" secondAttribute="trailing" constant="6" id="Fve-5S-Z3X"/>
+                                                <constraint firstItem="gUW-am-hBA" firstAttribute="centerY" secondItem="Ex9-nZ-TUp" secondAttribute="centerY" id="QID-hV-Eg3"/>
+                                                <constraint firstItem="WJx-Ng-u2V" firstAttribute="top" secondItem="BWW-1H-t04" secondAttribute="topMargin" constant="8" id="YX0-7j-ZMM"/>
+                                                <constraint firstItem="t9f-Vc-Gy7" firstAttribute="top" secondItem="BWW-1H-t04" secondAttribute="topMargin" id="ahs-qR-ueg"/>
+                                                <constraint firstItem="Ex9-nZ-TUp" firstAttribute="leading" secondItem="t9f-Vc-Gy7" secondAttribute="trailing" constant="12" id="jtc-Cq-uo5"/>
+                                                <constraint firstItem="t9f-Vc-Gy7" firstAttribute="leading" secondItem="BWW-1H-t04" secondAttribute="leadingMargin" id="psv-tH-c3f"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WJx-Ng-u2V" secondAttribute="trailing" constant="12" id="tOk-dM-LHU"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
